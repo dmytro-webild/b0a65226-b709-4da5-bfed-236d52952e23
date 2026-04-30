@@ -31,21 +31,13 @@ export default function LandingPage() {
       <NavbarStyleFullscreen
       navItems={[
         {
-          name: "Home",
-          id: "home",
-        },
+          name: "Acasă",          id: "home"},
         {
-          name: "About",
-          id: "about",
-        },
+          name: "Despre",          id: "about"},
         {
-          name: "Pricing",
-          id: "pricing",
-        },
+          name: "Prețuri",          id: "pricing"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="MAISON PLAY"
     />
@@ -54,41 +46,20 @@ export default function LandingPage() {
   <div id="home" data-section="home">
       <HeroBillboardRotatedCarousel
       background={{
-        variant: "rotated-rays-animated",
-      }}
-      title="Unforgettable Birthday Parties at Maison Play"
-      description="Premium venue, delicious food, and endless fun for your little ones. Book the perfect party experience today."
+        variant: "rotated-rays-animated"}}
+      title="Petreceri aniversare de neuitat la Maison Play"
+      description="Locație premium, mâncare delicioasă și distracție fără limite pentru micuții tăi. Rezervă experiența perfectă pentru petrecere chiar azi."
       buttons={[
         {
-          text: "Book Now",
-          href: "#contact",
-        },
+          text: "Rezervă Acum",          href: "#contact"},
       ]}
       carouselItems={[
-        {
-          id: "c1",
-          imageSrc: "http://img.b2bpic.net/free-photo/soft-pastel-hues-room-kids_23-2151690358.jpg",
-        },
-        {
-          id: "c2",
-          imageSrc: "http://img.b2bpic.net/free-photo/mandala-artwork-colorful-pattern-background-3d_58702-7036.jpg",
-        },
-        {
-          id: "c3",
-          imageSrc: "http://img.b2bpic.net/free-photo/confetti-made-circle-center-put-party_23-2147593120.jpg",
-        },
-        {
-          id: "c4",
-          imageSrc: "http://img.b2bpic.net/free-photo/kids-teenagers-birthday-party_23-2147783758.jpg",
-        },
-        {
-          id: "c5",
-          imageSrc: "http://img.b2bpic.net/free-photo/balloons-triangle-shape-paper-yellow-background_23-2147889765.jpg",
-        },
-        {
-          id: "c6",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-dinosaurs-animal-figure-toys-sweet-candy-sprinkles_53876-41760.jpg",
-        },
+        { id: "c1", imageSrc: "http://img.b2bpic.net/free-photo/soft-pastel-hues-room-kids_23-2151690358.jpg" },
+        { id: "c2", imageSrc: "http://img.b2bpic.net/free-photo/mandala-artwork-colorful-pattern-background-3d_58702-7036.jpg" },
+        { id: "c3", imageSrc: "http://img.b2bpic.net/free-photo/confetti-made-circle-center-put-party_23-2147593120.jpg" },
+        { id: "c4", imageSrc: "http://img.b2bpic.net/free-photo/kids-teenagers-birthday-party_23-2147783758.jpg" },
+        { id: "c5", imageSrc: "http://img.b2bpic.net/free-photo/balloons-triangle-shape-paper-yellow-background_23-2147889765.jpg" },
+        { id: "c6", imageSrc: "http://img.b2bpic.net/free-photo/close-up-dinosaurs-animal-figure-toys-sweet-candy-sprinkles_53876-41760.jpg" },
       ]}
     />
   </div>
@@ -96,7 +67,7 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <TextAbout
       useInvertedBackground={false}
-      title="Experience Excellence at Maison Play"
+      title="Experiență de excelență la Maison Play"
     />
   </div>
 
@@ -106,42 +77,12 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       features={[
-        {
-          id: "f1",
-          title: "Fresh Pizza & Chicken",
-          author: "Maison Play",
-          description: "Tasty food options including pizza or fried chicken, tailored for hungry kids.",
-          tags: [
-            "Food",
-            "Fresh",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-little-girl-looks-pizza-with-appetite_169016-18836.jpg",
-        },
-        {
-          id: "f2",
-          title: "Refreshing Drinks",
-          author: "Maison Play",
-          description: "Complimentary drinks on the house for everyone at the party.",
-          tags: [
-            "Drinks",
-            "Included",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/family-eating-pizza-outdoors-high-angle_23-2149931076.jpg",
-        },
-        {
-          id: "f3",
-          title: "Stress-Free Booking",
-          author: "Maison Play",
-          description: "Simple online calculator and booking process for transparent pricing.",
-          tags: [
-            "Easy",
-            "Fast",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-family-moving-into-new-home-eating-pizza_23-2149196318.jpg",
-        },
+        { id: "f1", title: "Pizza și Pui Proaspăt", author: "Maison Play", description: "Opțiuni gustoase de mâncare, inclusiv pizza sau pui prăjit, special pentru micii gurmanzi.", tags: ["Mâncare", "Proaspăt"], imageSrc: "http://img.b2bpic.net/free-photo/happy-little-girl-looks-pizza-with-appetite_169016-18836.jpg" },
+        { id: "f2", title: "Băuturi Răcoritoare", author: "Maison Play", description: "Băuturi din partea casei pentru toți invitații la petrecere.", tags: ["Băuturi", "Incluse"], imageSrc: "http://img.b2bpic.net/free-photo/family-eating-pizza-outdoors-high-angle_23-2149931076.jpg" },
+        { id: "f3", title: "Rezervare Fără Stres", author: "Maison Play", description: "Calculator online simplu și proces de rezervare transparent.", tags: ["Simplu", "Rapid"], imageSrc: "http://img.b2bpic.net/free-photo/young-family-moving-into-new-home-eating-pizza_23-2149196318.jpg" },
       ]}
-      title="Everything You Need Included"
-      description="Our birthday packages come fully equipped for your convenience and your child's joy."
+      title="Tot ce ai nevoie, inclus"
+      description="Pachetele noastre aniversare sunt complet echipate pentru confortul tău și bucuria copilului tău."
     />
   </div>
 
@@ -152,59 +93,20 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "p1",
-          badge: "Standard",
-          price: "1100 RON",
-          subtitle: "For 10 children",
-          features: [
-            "Food included",
-            "Drinks included",
-            "Birthday fun",
-          ],
-          buttons: [
-            {
-              text: "Book 10",
-              href: "#contact",
-            },
-          ],
+          id: "p1",          badge: "Standard",          price: "1100 RON",          subtitle: "Pentru 10 copii",          features: ["Mâncare inclusă", "Băuturi incluse", "Distracție aniversară"],
+          buttons: [{ text: "Rezervă 10", href: "#contact" }],
         },
         {
-          id: "p2",
-          badge: "Premium",
-          price: "1400 RON",
-          subtitle: "For 15 children",
-          features: [
-            "All standard features",
-            "Extra space",
-            "Party host",
-          ],
-          buttons: [
-            {
-              text: "Book 15",
-              href: "#contact",
-            },
-          ],
+          id: "p2",          badge: "Premium",          price: "1400 RON",          subtitle: "Pentru 15 copii",          features: ["Toate beneficiile Standard", "Spațiu suplimentar", "Gazdă petrecere"],
+          buttons: [{ text: "Rezervă 15", href: "#contact" }],
         },
         {
-          id: "p3",
-          badge: "Ultimate",
-          price: "1700 RON",
-          subtitle: "For 20 children",
-          features: [
-            "All premium features",
-            "Full venue access",
-            "Priority booking",
-          ],
-          buttons: [
-            {
-              text: "Book 20",
-              href: "#contact",
-            },
-          ],
+          id: "p3",          badge: "Ultimate",          price: "1700 RON",          subtitle: "Pentru 20 copii",          features: ["Toate beneficiile Premium", "Acces total locație", "Rezervare prioritară"],
+          buttons: [{ text: "Rezervă 20", href: "#contact" }],
         },
       ]}
-      title="Flexible Birthday Pricing"
-      description="Starting from 10 children, our plans scale perfectly to your needs."
+      title="Prețuri flexibile pentru petreceri"
+      description="Pornind de la 10 copii, planurile noastre se adaptează perfect nevoilor tale."
     />
   </div>
 
@@ -214,44 +116,14 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       testimonials={[
-        {
-          id: "t1",
-          name: "Elena",
-          handle: "@elena",
-          testimonial: "Best party ever, kids loved the pizza!",
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-young-woman-looking-red-gift-box-given-by-her-senior-mother_23-2148041444.jpg",
-        },
-        {
-          id: "t2",
-          name: "Andrei",
-          handle: "@andrei",
-          testimonial: "Everything was perfectly organized.",
-          imageSrc: "http://img.b2bpic.net/free-photo/family-beach_1303-3578.jpg",
-        },
-        {
-          id: "t3",
-          name: "Maria",
-          handle: "@maria",
-          testimonial: "Truly a stress-free experience for parents.",
-          imageSrc: "http://img.b2bpic.net/free-photo/pretty-smiling-woman-with-glass-whiskey_23-2148037539.jpg",
-        },
-        {
-          id: "t4",
-          name: "Ion",
-          handle: "@ion",
-          testimonial: "Great venue, professional staff.",
-          imageSrc: "http://img.b2bpic.net/free-photo/children-motherhood-fun-hobby-concept-indoor-portrait-excited-emotional-dark-skinned-little-boy-standing-bed-with-hand-up_343059-3866.jpg",
-        },
-        {
-          id: "t5",
-          name: "Ana",
-          handle: "@ana",
-          testimonial: "My child had the birthday of their dreams.",
-          imageSrc: "http://img.b2bpic.net/free-photo/fathers-day-celebration-with-kid_23-2151175729.jpg",
-        },
+        { id: "t1", name: "Elena", handle: "@elena", testimonial: "Cea mai bună petrecere, copiii au adorat pizza!", imageSrc: "http://img.b2bpic.net/free-photo/cheerful-young-woman-looking-red-gift-box-given-by-her-senior-mother_23-2148041444.jpg" },
+        { id: "t2", name: "Andrei", handle: "@andrei", testimonial: "Totul a fost perfect organizat.", imageSrc: "http://img.b2bpic.net/free-photo/family-beach_1303-3578.jpg" },
+        { id: "t3", name: "Maria", handle: "@maria", testimonial: "O experiență fără stres pentru părinți.", imageSrc: "http://img.b2bpic.net/free-photo/pretty-smiling-woman-with-glass-whiskey_23-2148037539.jpg" },
+        { id: "t4", name: "Ion", handle: "@ion", testimonial: "Locație excelentă, personal profesionist.", imageSrc: "http://img.b2bpic.net/free-photo/children-motherhood-fun-hobby-concept-indoor-portrait-excited-emotional-dark-skinned-little-boy-standing-bed-with-hand-up_343059-3866.jpg" },
+        { id: "t5", name: "Ana", handle: "@ana", testimonial: "Copilul meu a avut petrecerea visurilor sale.", imageSrc: "http://img.b2bpic.net/free-photo/fathers-day-celebration-with-kid_23-2151175729.jpg" },
       ]}
-      title="Parent Stories"
-      description="See why parents love celebrating with us."
+      title="Poveștile părinților"
+      description="Vezi de ce părinții adoră să sărbătorească cu noi."
     />
   </div>
 
@@ -260,24 +132,12 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "q1",
-          title: "How is price calculated?",
-          content: "10 children are 1100 RON, each extra child up to 14 is 80 RON. Same scaling applies to larger groups.",
-        },
-        {
-          id: "q2",
-          title: "Is food included?",
-          content: "Yes, pizza or chicken, plus drinks on the house.",
-        },
-        {
-          id: "q3",
-          title: "Can I bring my own cake?",
-          content: "Yes, you are welcome to bring your own birthday cake!",
-        },
+        { id: "q1", title: "Cum se calculează prețul?", content: "10 copii costă 1100 RON, fiecare copil extra până la 14 costă 80 RON. Același sistem se aplică grupurilor mai mari." },
+        { id: "q2", title: "Mâncarea este inclusă?", content: "Da, pizza sau pui, plus băuturi din partea casei." },
+        { id: "q3", title: "Pot aduce tortul meu?", content: "Da, ești binevenit să aduci tortul tău aniversar!" },
       ]}
-      title="Frequently Asked Questions"
-      description="Have more questions? We are here to help."
+      title="Întrebări Frecvente"
+      description="Mai ai întrebări? Suntem aici să ajutăm."
       faqsAnimation="slide-up"
     />
   </div>
@@ -285,29 +145,13 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={true}
-      title="Book Your Party"
-      description="Provide the details, and we will get back to you with a price quote."
+      title="Rezervă petrecerea ta"
+      description="Oferă detaliile necesare și îți vom trimite o ofertă de preț."
       inputs={[
-        {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-        },
-        {
-          name: "child_age",
-          type: "number",
-          placeholder: "Child's Age",
-        },
-        {
-          name: "num_children",
-          type: "number",
-          placeholder: "Number of Children",
-        },
-        {
-          name: "num_parents",
-          type: "number",
-          placeholder: "Number of Parents",
-        },
+        { name: "name", type: "text", placeholder: "Numele Tău" },
+        { name: "child_age", type: "number", placeholder: "Vârsta Copilului" },
+        { name: "num_children", type: "number", placeholder: "Număr Copii" },
+        { name: "num_parents", type: "number", placeholder: "Număr Părinți" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/attractive-happy-young-bearded-man-trendy-hat-texting-messages-via-social-networks-browsing-internet-using-free-wifi-his-electronic-device-coffee-break-restaurant_273609-1934.jpg"
     />
@@ -316,26 +160,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
       columns={[
-        {
-          items: [
-            {
-              label: "Home",
-              href: "#home",
-            },
-            {
-              label: "Pricing",
-              href: "#pricing",
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              label: "Contact",
-              href: "#contact",
-            },
-          ],
-        },
+        { items: [{ label: "Acasă", href: "#home" }, { label: "Prețuri", href: "#pricing" }] },
+        { items: [{ label: "Contact", href: "#contact" }] },
       ]}
       logoText="MAISON PLAY"
     />
