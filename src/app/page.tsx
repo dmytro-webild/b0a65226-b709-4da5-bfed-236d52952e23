@@ -54,7 +54,7 @@ export default function LandingPage() {
           text: "Rezervă Acum",          href: "#contact"},
       ]}
       carouselItems={[
-        { id: "c1", imageSrc: "http://img.b2bpic.net/free-photo/soft-pastel-hues-room-kids_23-2151690358.jpg" },
+        { id: "c1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5csfS2eM56HgjLvoOJW5Mm44W/uploaded-1777578825685-oyshi19x.jpg" },
         { id: "c2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5csfS2eM56HgjLvoOJW5Mm44W/uploaded-1777578546831-esmkhuyd.jpg" },
         { id: "c3", imageSrc: "http://img.b2bpic.net/free-photo/confetti-made-circle-center-put-party_23-2147593120.jpg" },
         { id: "c4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5csfS2eM56HgjLvoOJW5Mm44W/uploaded-1777578699890-mxrrboe1.jpg" },
