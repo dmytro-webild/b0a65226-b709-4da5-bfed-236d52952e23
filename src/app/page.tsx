@@ -51,7 +51,7 @@ export default function LandingPage() {
       description="Locație premium, mâncare delicioasă și distracție fără limite pentru micuții tăi. Rezervă experiența perfectă pentru petrecere chiar azi."
       buttons={[
         {
-          text: "Rezervă Acum",          href: "#contact"},
+          text: "Rezervă Petrecerea Visurilor",          href: "#contact"},
       ]}
       carouselItems={[
         { id: "c1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5csfS2eM56HgjLvoOJW5Mm44W/uploaded-1777578825685-oyshi19x.jpg" },
