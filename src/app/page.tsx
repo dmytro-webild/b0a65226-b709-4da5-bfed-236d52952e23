@@ -2,15 +2,12 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
-import FaqDouble from '@/components/sections/faq/FaqDouble';
-import FeatureCardTwentyFour from '@/components/sections/feature/FeatureCardTwentyFour';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboardRotatedCarousel';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import TextAbout from '@/components/sections/about/TextAbout';
 
 export default function LandingPage() {
@@ -70,7 +67,7 @@ export default function LandingPage() {
   </div>
 
   <div id="about" data-section="about">
-      <TextAbout title="Experiență de excelență la Maison Play" />
+      <TextAbout title="Experiență de excelență la Maison Play" useInvertedBackground={false} />
   </div>
 
   <div id="booking" data-section="booking" className="py-20 bg-[var(--background-accent)]">
@@ -100,6 +97,7 @@ export default function LandingPage() {
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
+      description="Alegeți pachetul potrivit pentru petrecerea micuțului tău."
       plans={[
         { id: "p1", badge: "Standard", price: "1100 RON", subtitle: "Pentru 10 copii", features: ["Mâncare inclusă", "Băuturi incluse"], buttons: [{ text: "Rezervă", href: "#contact" }] },
         { id: "p2", badge: "Premium", price: "1400 RON", subtitle: "Pentru 15 copii", features: ["Toate beneficiile", "Gazdă"], buttons: [{ text: "Rezervă", href: "#contact" }] },
