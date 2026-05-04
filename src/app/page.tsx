@@ -10,7 +10,6 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import TextAbout from '@/components/sections/about/TextAbout';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
-import { Star } from "lucide-react";
 
 export default function LandingPage() {
   const [numChildren, setNumChildren] = useState(10);
@@ -54,7 +53,6 @@ export default function LandingPage() {
 
   <div id="home" data-section="home">
       <HeroBillboardRotatedCarousel
-      background={{ variant: "rotated-rays-animated" }}
       title="Petreceri aniversare de neuitat la Maison Play"
       description="Locație premium, mâncare delicioasă și distracție fără limite pentru micuții tăi."
       buttons={[{ text: "Rezervă Petrecerea Visurilor", href: "#contact" }]}
@@ -82,10 +80,6 @@ export default function LandingPage() {
                     <label className="block mb-2">Număr Copii</label>
                     <input type="number" value={numChildren} onChange={(e) => setNumChildren(Number(e.target.value))} className="w-full p-3 rounded border" />
                 </div>
-                <div>
-                    <label className="block mb-2">Vârsta Copilului</label>
-                    <input type="number" className="w-full p-3 rounded border" />
-                </div>
             </div>
             <div className="mt-8 text-center">
                 <p className="text-2xl font-bold">Total: {calculatePrice(numChildren)} RON</p>
@@ -97,6 +91,7 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
     <TestimonialCardThirteen
+      useInvertedBackground={false}
       showRating={true}
       animationType="slide-up"
       textboxLayout="default"
