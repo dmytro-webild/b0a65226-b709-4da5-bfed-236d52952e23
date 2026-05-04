@@ -93,6 +93,7 @@ export default function LandingPage() {
   <div id="testimonials" data-section="testimonials">
     <TestimonialCardThirteen
       showRating={true}
+      useInvertedBackground={false}
       animationType="slide-up"
       textboxLayout="default"
       title="Ce spun părinții"
