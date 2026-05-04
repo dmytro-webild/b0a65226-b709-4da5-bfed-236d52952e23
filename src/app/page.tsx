@@ -55,14 +55,15 @@ export default function LandingPage() {
       <HeroBillboardRotatedCarousel
       title="Petreceri aniversare de neuitat la Maison Play"
       description="Locație premium, mâncare delicioasă și distracție fără limite pentru micuții tăi."
+      background={{ variant: "animated-grid" }}
       buttons={[{ text: "Rezervă Petrecerea Visurilor", href: "#contact" }]}
       carouselItems={[
         { id: "c1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5csfS2eM56HgjLvoOJW5Mm44W/uploaded-1777578825685-oyshi19x.jpg" },
         { id: "c2", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5csfS2eM56HgjLvoOJW5Mm44W/uploaded-1777578546831-esmkhuyd.jpg" },
-        { id: "c3", imageSrc: "http://img.b2bpic.net/free-photo/confetti-made-circle-center-put-party_23-2147593120.jpg" },
+        { id: "c3", imageSrc: "https://img.b2bpic.net/free-photo/confetti-made-circle-center-put-party_23-2147593120.jpg" },
         { id: "c4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D5csfS2eM56HgjLvoOJW5Mm44W/uploaded-1777578699890-mxrrboe1.jpg" },
-        { id: "c5", imageSrc: "http://img.b2bpic.net/free-photo/balloons-triangle-shape-paper-yellow-background_23-2147889765.jpg" },
-        { id: "c6", imageSrc: "http://img.b2bpic.net/free-photo/close-up-dinosaurs-animal-figure-toys-sweet-candy-sprinkles_53876-41760.jpg" },
+        { id: "c5", imageSrc: "https://img.b2bpic.net/free-photo/balloons-triangle-shape-paper-yellow-background_23-2147889765.jpg" },
+        { id: "c6", imageSrc: "https://img.b2bpic.net/free-photo/close-up-dinosaurs-animal-figure-toys-sweet-candy-sprinkles_53876-41760.jpg" },
       ]}
     />
   </div>
@@ -91,7 +92,6 @@ export default function LandingPage() {
 
   <div id="testimonials" data-section="testimonials">
     <TestimonialCardThirteen
-      useInvertedBackground={false}
       showRating={true}
       animationType="slide-up"
       textboxLayout="default"
