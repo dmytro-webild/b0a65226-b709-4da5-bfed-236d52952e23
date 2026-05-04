@@ -9,6 +9,8 @@ import HeroBillboardRotatedCarousel from '@/components/sections/hero/HeroBillboa
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import TextAbout from '@/components/sections/about/TextAbout';
+import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
+import { Star } from "lucide-react";
 
 export default function LandingPage() {
   const [numChildren, setNumChildren] = useState(10);
@@ -43,6 +45,7 @@ export default function LandingPage() {
         { name: "Despre", id: "about" },
         { name: "Prețuri", id: "pricing" },
         { name: "Calculator", id: "booking" },
+        { name: "Părinți", id: "testimonials" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="MAISON PLAY"
@@ -92,6 +95,21 @@ export default function LandingPage() {
     </div>
   </div>
 
+  <div id="testimonials" data-section="testimonials">
+    <TestimonialCardThirteen
+      showRating={true}
+      animationType="slide-up"
+      textboxLayout="default"
+      title="Ce spun părinții"
+      description="Aflați experiențele celor care au ales Maison Play pentru momente speciale."
+      testimonials={[
+        { id: "t1", name: "Ana Maria", handle: "@ana_mama", testimonial: "Atmosfera a fost magică, iar copiii au adorat pizza și puiul crocant! Serviciul a fost impecabil.", rating: 5 },
+        { id: "t2", name: "Andrei C.", handle: "@tatic_activ", testimonial: "Cea mai bună alegere pentru aniversare. Mâncarea delicioasă a fost apreciată de toți părinții.", rating: 5 },
+        { id: "t3", name: "Elena B.", handle: "@elena_b", testimonial: "Personalul este super atent, iar copiii s-au simțit extraordinar în atmosfera creată. Recomand!", rating: 5 }
+      ]}
+    />
+  </div>
+
   <div id="pricing" data-section="pricing">
       <PricingCardEight
       animationType="slide-up"
@@ -117,7 +135,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoEmphasis
-      columns={[{ items: [{ label: "Acasă", href: "#home" }, { label: "Calculator", href: "#booking" }] }]}
+      columns={[{ items: [{ label: "Acasă", href: "#home" }, { label: "Calculator", href: "#booking" }, { label: "Părinți", href: "#testimonials" }] }]}
       logoText="MAISON PLAY"
     />
   </div>
